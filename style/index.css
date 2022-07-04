@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* icons from header */
+.iconsheader{
+  color: #ffffff;
+  font-size: 1.5em;
+}
+.navbar-toggler {
+  border-radius: 7px;
+  background-color: white!important;
+}
+.icm {
+  margin-top: 100px;
+  font-size: 2em;
+  color: rgb(222, 165, 90);
+}
+/* cada card dos cursos do menu */
+/* #card1 {
+  z-index: 1;
+  padding: 10px;
+ background-image: url("/assets/Sem\ título.png");
+ background-size: 100%;
+ background-repeat: no-repeat;
+} */
+/* estilo padrão para os cards */
+.cardcurso {
+  position: relative;
+  font-size: 1.8em;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* max-width: 300px; */
+  text-align: center;
+  font-family: arial;
+  min-height: 24vh;
+  min-width: 300px;
+  margin-bottom: 20%;
+  background: rgb(100, 135, 19);
+  border-radius: 10px;
+  padding: 10px;
+}
+.content {
+  position: absolute;
+  background-color: rgb(8, 97, 69);
+  
+  border-radius: 20px;
+}
+@media screen and (min-width: 576px) {
+  section {
+    margin-left: 0% 10% 0%;
+    max-width: 80%;
+  }
+  .cardcurso {
+    height: 24vh;
+    min-height: 100%;
+  }
+}
+  
