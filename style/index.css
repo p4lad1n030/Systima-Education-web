@@ -13,14 +13,10 @@
   font-size: 2em;
   color: rgb(222, 165, 90);
 }
-/* cada card dos cursos do menu */
-/* #card1 {
-  z-index: 1;
-  padding: 10px;
- background-image: url("/assets/Sem\ título.png");
- background-size: 100%;
- background-repeat: no-repeat;
-} */
+.mln {
+  margin-left: -0.8rem!important;
+  margin-right: -0.6rem!important;
+}
 /* estilo padrão para os cards */
 .cardcurso {
   position: relative;
@@ -37,14 +33,20 @@
   background: rgb(100, 135, 19);
   border-radius: 10px;
   padding: 10px;
+  box-shadow: 6px 6px 10px rgb(31, 30, 30);
 }
 .content {
   position: absolute;
   background-color: rgb(8, 97, 69);
-  
+  margin-left: -0.8rem!important ;
   border-radius: 20px;
+  box-shadow: 6px 6px 10px rgb(31, 30, 30);
+
 }
 @media screen and (min-width: 576px) {
+  .container {
+    max-width: 700px!important;
+}
   section {
     margin-left: 0% 10% 0%;
     max-width: 80%;
