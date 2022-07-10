@@ -3,6 +3,9 @@
 .iconsheader{
   color: #ffffff;
   font-size: 1.5em;
+  text-align: center;
+}
+.i {
 }
 .navbar-toggler {
   border-radius: 7px;

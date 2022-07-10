@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* icons from header */
+.iconsheader{
+  color: #ffffff;
+  font-size: 1.5em;
+  text-align: center;
+}
+.navbar-toggler {
+  border-radius: 7px;
+  background-color: white!important;
+}
+/* ----------------- */
+/* header */
+.header {
+  background-color: rgb(217, 249, 143);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  
+}
+
+/* --------------- */
+/* menu nav-pills  em dispositivos mobile */
+.navpil {
+  flex-direction: column;
+}
+/* ---------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 415px) {
+  .navpil {
+    display: flex;
+    flex-direction: row;
+  }
+}
+  
+/* ---------------- */
