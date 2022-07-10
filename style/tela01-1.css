@@ -27,6 +27,7 @@
 /* menu nav-pills  em dispositivos mobile */
 .navpil {
   flex-direction: column;
+  border: 1px solid #dee2e6;
 }
 /* ---------------- */
 
