@@ -3,16 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <script src="https://kit.fontawesome.com/d88fbfa2f1.js" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../style/tela01-1.css">
+  <title>01.1</title>
 </head>
 <body>
   <section class="">
-    <header class="">
-
+    <nav class="navbar  navbar-expand-lg navbar-light bg-primary ">
+      <p class="iconsheader">Olá, User</p>
+      <p class="text-center"><a href="../../index.html" class="iconsheader"><i class='fas fa-home '></i><br/> Home</a></p>
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon w"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class='far fa-user-circle iconsheader '><br>Login</i></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class='far fa-bell iconsheader'><br>notificações</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-regular fa-circle-play iconsheader "><br>Minha PlayList</i>
+            </a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+    <header class="text-center">
+      <h1>Cresça na Carreira com a Tecnologia</h1>
     </header>
-    <article class="">
-      
+    <article class="mx-auto">
+      <div class="player">
+        <video id="movie" poster="../../assets/img/thumbrl.jpg" class="video" src="../../assets/videos/SYSTIMA-ERP-ESSENCIAL.mp4" controls ></video>
+        <!-- <div class="controles">
+          <button id="playPause" type="button" class="control btn btn-primary" aria-label="play" onclick="playPause()">
+            <i class="fas fa-play"></i>
+          </button>
+
+          <button aria-label="stop" type="button" class="control btn btn-primary" onclick="stop()">
+            <i class="fas fa-stop"></i>
+          </button>
+
+          <button id="backward" aria-label="backward" type="button" class="control btn btn-primary" onclick="backward()">
+            <i class="fas fa-backward"></i>
+          </button>
+
+          <button id="forward" aria-label="forward" type="button" class="control btn btn-primary" onclick="forward()">
+            <i class="fas fa-forward"></i>
+          </button>
+
+          <button aria-label="step-backward" type="button" class="control btn btn-primary" onclick="stepBackward()">
+            <i class="fas fa-step-backward"></i>
+          </button>
+
+          <button aria-label="step-forward" type="button" class="control btn btn-primary" onclick="StepForward()">
+            <i class="fas fa-step-forward"></i>
+          </button>
+        </div> -->
+      </div>
+      <article class="">
+        <h3>Faça download do material deste curso clicando <a href="" download="../../download/SYSTIMA EDUCACAO-SISTEMAS-DE-GESTÃO-ERP-18-slides.zip" type="aplication/zip">aqui</a></h3>
+        <h3>Leia o material deste curso clicando <a href="../../download/SYSTIMA EDUCACAO-SISTEMAS-DE-GESTÃO-ERP-18-slides.pdf"  type="aplication/zip" target="_blank">aqui</a></h3>
+      </article>
     </article>
   </section>
+  <footer class="">
+    <h3 class="">Concluiu? Adquira seu certificado!</h3>
+    <button type="button" aria-label="Quero meu certificado" class="btn btn-outline-primary" > <a href=".././formulario.html" class="link-primary">Quero meu Certificado</a></button>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="../../src/scripts/controlesVideo.js"></script> -->
 </body>
 </html>
